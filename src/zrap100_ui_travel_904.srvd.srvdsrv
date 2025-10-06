@@ -1,0 +1,12 @@
+@EndUserText: {
+  label: 'Service Definitio ZRAP100_C_TRAVELTP_904'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZRAP100_C_TRAVELTP_904'
+  }
+}
+define service ZRAP100_UI_TRAVEL_904
+  provider contracts odata_v4_ui {
+  expose ZRAP100_C_TRAVELTP_904 as Travel;
+}
